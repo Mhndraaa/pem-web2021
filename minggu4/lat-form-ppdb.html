@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title> Form Pendaftaran</title>
+</head>
+<body>
+	<h1 align="center"> FORM PPDB SMAN JALUR ZONASI 2021 </h1>
+			<link rel="stylesheet" href="style.css">
+			<h3> INFO PENDAFTARAN </h3>
+			<table>
+				<form action="proses.php" method="POST" name="fpendaftaran">
+				<tr>
+					<td><label for="fnisn">NISN :</label></td>
+					<td><input type="number" id="fnisn" name="fnisn" ></td>
+				</tr>
+				<tr>
+					<td><label for="fasalsklh">Asal Sekolah :</label></td>
+					<td><input type="varchar" id="fasalsklh" name="fasalsklh" ></td>
+				</tr>
+				<tr>
+					<td><label for="fthnlulus">Tahun Lulus :</label></td>
+					<td><input type="number" id="fthnlulus" name="fthnlulus" ></td>
+				</tr>
+			</table>
+
+			<h4> DATA CALON PESERTA </h4>
+			<table>
+				<tr>
+					<td><label for="fnamalengkap">Nama Lengkap :</label></td>
+					<td><input type="text" id="fnamalengkap" name="fnamalengkap" ></td>
+				</tr>
+				<tr>
+					<td><label for="fnik">NIK :</label></td>
+					<td><input type="number" id="fnik" name="fnik" ></td>
+				</tr>
+					<td><label for="ftempat_lahir" for="ftgl_lahir">Tempat / Tanggal Lahir :</label></td>
+					<td><input type="text" id="ftempat_lahir" name="ftempat_lahir" ></td>
+					<td><input type="date" id="ftgl_lahir_ "name="ftgl_lahir" ></td>
+				<tr>
+					<td><label for="fjenis_kelamin"> Jenis Kelamin :</label></td>
+					<td><input type="radio" name="fjenis_kelamin" value="laki-laki" /> Laki - Laki</td>
+					<td><input type="radio" name="fjenis_kelamin" value="perempuan" />Perempuan</td>
+				</tr>	
+				<tr>
+					<td><label for="falamat">Alamat :</label></td>
+					<td><textarea id="falamat" name="falamat" class="form-control" ></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="fdesa">Desa/Kel. :</label></td>
+					<td><input type="text" id="fdesa" name="fdesa" ></td>
+				</tr>
+				<tr>
+					<td><label for="fkecamatan">Kecamatan :</label></td>
+					<td><input type="text" id="fkecamatan" name="fkecamatan" ></td>
+				</tr>
+				<tr>
+					<td><label for="fkabupaten">Kabupaten :</label></td>
+					<td><input type="text" id="fkabupaten" name="fkabupaten" ></td>
+				</tr>
+				<tr>
+					<td><label for="fprovinsi">Provinsi :</label></td>
+					<td><input type="text" id="fprovinsi" name="fprovinsi" ></td>
+				</tr>
+				<tr>
+					<td><label for="femail">Email Aktif :</label></td>
+					<td><input type="Email" id="femail" name="femail" ></td>
+				</tr>
+			</table>
+
+			<h5>Data Orang Tua</h5>
+			<table>
+				<tr>
+					<td><label for="fkk">Nomor Kartu Keluarga :</label></td>
+					<td><input type="number" id="fkk" name="fkk" ></td>
+				</tr>
+				<tr>
+					<td><label for="fnamaAyah">Nama Ayah Kandung :</label></td>
+					<td><input type="text" id="fnamaAyah" name="fnamaAyah" ></td>
+				</tr>
+				<tr>
+					<td><label for="fagama">Agama :</label></td>
+					<td><input type="text" id="fagama" name="fagama" ></td>
+				</tr>
+				<tr>
+					<td><label for="fkerja">Pekerjaan :</label></td>
+					<td><input type="text" id="fkerja" name="fkerja" ></td>
+				</tr>
+				<tr>
+					<td><label for="fnamaIbu">Nama Ibu Kandung :</label></td>
+					<td><input type="text" id="fnamaIbu" name="fnamaIbu" ></td>
+				</tr>
+				<tr>
+					<td><label for="fagama2">Agama :</label></td>
+					<td><input type="text" id="fagama2" name="fagama2" ></td>
+				</tr>
+				<tr>
+					<td><label for="fkerja2">Pekerjaan :</label></td>
+					<td><input type="text" id="fkerja2" name="fkerja2" ></td>
+				</tr>
+				<tr>
+					<td><label for="falamat2">Alamat Orang Tua :</label></td>
+					<td><textarea id="falamat2" name="falamat2" class="form-control" ></textarea></td>
+				</tr>
+				<tr>
+					<td><label for="f_desa">Desa/Kel. :</label></td>
+					<td><input type="text" id="f_desa" name="f_desa" ></td>
+				</tr>
+				<tr>
+					<td><label for="f_kecamatan">Kecamatan :</label></td>
+					<td><input type="text" id="f_kecamatan" name="f_kecamatan" ></td>
+				</tr>
+				<tr>
+					<td><label for="f_kabupaten">Kabupaten :</label></td>
+					<td><input type="text" id="f_kabupaten" name="f_kabupaten" ></td>
+				</tr>
+				<tr>
+					<td><label for="f_provinsi">Provinsi :</label></td>
+					<td><input type="text" id="f_provinsi" name="f_provinsi" ></td>
+				</tr>
+			</table>
+			<tr>
+				<h6>
+				<td colspan="10" align="center"><input type="submit" name="tsubmit" value="Registrasi" ><input type="reset" name="reset" value="Reset"></td>
+				</h6>
+			</tr>
+	
+		</form>
+</body>
+</html>
