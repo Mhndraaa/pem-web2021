@@ -1,3 +1,0 @@
-#pem-web2021 Pemrograman WEB - Pak Abu Salam, Universitas Dian Nuswantoro
-
-Untuk Foldernya, ini folder baru pak, kemarin saya sempat upload di github hanya filenya saja
